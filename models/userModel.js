@@ -13,11 +13,11 @@ const userSchema = mongoose.Schema({
     },
     password: {
         type: String,
-        required: true,
+        required: true
         },
 
-    profilePic:{
-        required:true,
+    profilePic: {
+        type: String,
         default:""
     }
 },
