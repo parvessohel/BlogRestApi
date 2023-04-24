@@ -17,7 +17,7 @@ const postSchema = mongoose.Schema({
 
     userName:{
         type: String,
-        required:true
+        required: true
     },
     categories:{
         type:Array,
